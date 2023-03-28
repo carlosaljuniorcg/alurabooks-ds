@@ -7,18 +7,18 @@ export default {
     component: AbBotao
 } as ComponentMeta<typeof AbBotao>
 
-const Template: ComponentStory<typeof AbBotao> = (args) => <AbBotao {...args} />
+const Template: ComponentStory<typeof AbBotao> = (args) => <AbBotao {...args}/>
 
 export const Primario = Template.bind({})
 
 Primario.args = {
-    texto: 'AB Botao Primário',
+    texto: 'Ab Botão Primário',
     tipo: 'primario'
 } as AbBotaoProps
 
 export const Secundario = Template.bind({})
 
 Secundario.args = {
-    texto: 'AB Botao Secundário',
+    texto: 'Ab Botão Secundário',
     tipo: 'secundario'
 } as AbBotaoProps
